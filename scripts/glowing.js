@@ -6,8 +6,8 @@
       
             setInterval(() => {
               if (increasing) {
-                glowStrength = glowStrength < 15 ? glowStrength + 1 : 15;
-                if (glowStrength >= 15) {
+                glowStrength = glowStrength < 30 ? glowStrength + 1 : 30;
+                if (glowStrength >= 30) {
                   increasing = false;
                 }
               } else {
@@ -17,7 +17,7 @@
                 }
               }
               h1Element.style.textShadow = `0 0 ${glowStrength}px #990000, 0 0 ${glowStrength + 5}px #990000, 0 0 ${glowStrength + 10}px #990000`;
-            }, 100);
+            }, 70);
           }
       
           // Call the function to apply the glowing effect when the page loads
