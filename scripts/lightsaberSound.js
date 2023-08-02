@@ -9,8 +9,8 @@ links.forEach((link) => {
     lightsaberSound.play();
   });
 
-  link.addEventListener("mouseleave", () => {
-    // Stop the lightsaber sound
-    lightsaberSound.pause();
-  });
+  // link.addEventListener("mouseleave", () => {
+  //   // Stop the lightsaber sound
+  //   lightsaberSound.pause();
+  // });
 });

@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: #000000;
+  cursor: url('img/kyloSaber.png'), auto;
+}
+
+.element-class {
+  cursor: url('img/kyloSaber.png'), auto;
 }
 
 html {
@@ -120,6 +125,14 @@ h1#anakin {
   flex-grow: 4;
   width: 35%;
   box-shadow: 6px 6px 0px white;
+  transition: background 1s ease, transform 1s ease;
+}
+
+.quoteBox:hover {
+  background: #990000; /* Change background color on hover */
+  cursor: auto; /* Change cursor to pointer on hover */
+  transform: scale(1.1) rotateX(1deg) rotateY(15deg);
+  transition: background 1s ease, transform 1s ease; /* Add smooth transition on hover effect */
 }
 
 .quoteBox2 {
@@ -138,6 +151,14 @@ h1#anakin {
   flex-grow: 4;
   width: 35%;
   box-shadow: -6px 6px 0px white;
+  transition: background 1s ease, transform 1s ease;
+}
+
+.quoteBox2:hover {
+  background: #990000; /* Change background color on hover */
+  cursor: auto; /* Change cursor to pointer on hover */
+  transform: scale(1.1) rotateX(1deg) rotateY(15deg);
+  transition: background 1s ease, transform 1s ease; /* Add smooth transition on hover effect */
 }
 
 h2 {
@@ -210,5 +231,5 @@ h4 {
   border-radius: 100%;
   padding: 1px;
   /*   background: darkgrey; */
-  cursor: url("path/to/lightsaber_cursor.png"), auto;
+  cursor: url("path/to/lightsaber_cursor.png"), pointer;
 }
