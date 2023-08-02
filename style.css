@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   background: #000000;
@@ -8,65 +8,63 @@ html {
   scroll-behavior: smooth;
 }
 
-.container{
+.container {}
 
-}
-
-.nextTo{
+.nextTo {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
 }
 
-.under{
+.under {
   display: block;
   flex-grow: 3;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding: 0px 50px;
-/*   padding-top: 25px; */
+  /*   padding-top: 25px; */
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.15vw;
   line-height: 1.5em;
   color: white;
 }
 
-.personalUnder{
+.personalUnder {
   display: block;
-/*   flex-grow: 3; */
+  /*   flex-grow: 3; */
   width: 25vw;
   margin-left: auto;
   margin-right: auto;
-/*   padding: 0px 50px; */
-/*   padding-top: 25px; */
+  /*   padding: 0px 50px; */
+  /*   padding-top: 25px; */
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.15vw;
   line-height: 1.5em;
   color: white;
 }
 
-.header{
-/*   display: flex;   */
-/*   justify-content: center; */
-/*   align-items: center; */
+.header {
+  /*   display: flex;   */
+  /*   justify-content: center; */
+  /*   align-items: center; */
   position: relative;
-/*   border: 2px solid black; */
+  /*   border: 2px solid black; */
   font-family: 'Abril Fatface', cursive;
   flex-grow: 4;
 }
 
-img{
+img {
   height: 100%;
   max-width: 100%;
-  
+
   filter: sepia(50%);
   box-shadow: 3px 3px 20px #490C0C;
   transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   opacity: 0.8;
 }
 
-h1#name{
+h1#name {
   position: absolute;
   left: 20%;
   bottom: 30%;
@@ -74,7 +72,7 @@ h1#name{
   color: #000000;
 }
 
-h1#anakin{
+h1#anakin {
   position: absolute;
   left: 20%;
   bottom: 0;
@@ -96,7 +94,7 @@ h1#anakin{
   line-height: 1.5em;
 } */
 
-.quoteBox::before{
+.quoteBox::before {
   content: '“';
   position: absolute;
   left: -6%;
@@ -142,12 +140,12 @@ h1#anakin{
   box-shadow: -6px 6px 0px white;
 }
 
-h2{
+h2 {
   text-transform: uppercase;
   padding: 30px 0px 30px 0px;
 }
 
-h4{
+h4 {
   font-family: 'Merriweather', serif;
   margin: -3.5% 0px 0px 0px;
   font-size: 0.85vw;
@@ -159,9 +157,9 @@ h4{
   margin: 20px 0;
 }
 
-.navigation{
+.navigation {
   display: flex;
-/*   background: #3A0909; */
+  /*   background: #3A0909; */
   background: black;
   height: 40px;
   justify-content: center;
@@ -169,24 +167,24 @@ h4{
   top: 0;
   width: 100%;
   z-index: 999;
-/*   margin: -8px;
+  /*   margin: -8px;
   padding-bottom: 10px; */
-/*   box-shadow: 0px 10px 10px #3A0909; */
+  /*   box-shadow: 0px 10px 10px #3A0909; */
   box-shadow: 0px 5px 20px black;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   align-text: center;
-/*   padding: 10px; */
+  /*   padding: 10px; */
   justify-content: center;
-  
+
 }
 
-.link{
+.link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,7 +192,7 @@ h4{
   height: 30px;
   margin: 60px;
   font-family: 'Josefin Sans', sans-serif;
-/*   margin: -20px 0px 0px 0px; */
+  /*   margin: -20px 0px 0px 0px; */
   font-size: 1.4vw;
   color: white;
   text-decoration: none;
@@ -207,9 +205,10 @@ h4{
   transform: scale(1.1);
   text-shadow: 1px 1px 0px black;
   color: #490C0C;
-/*   border: 1px solid grey; */
-/*   border: solid 3px darkgrey; */
+  /*   border: 1px solid grey; */
+  /*   border: solid 3px darkgrey; */
   border-radius: 100%;
   padding: 1px;
-/*   background: darkgrey; */
+  /*   background: darkgrey; */
+  cursor: url("path/to/lightsaber_cursor.png"), auto;
 }
